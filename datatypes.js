@@ -59,4 +59,4 @@ let gru=[123,'raj',1331.004,963852741n,true]
 console.log(typeof gru)
 console.log(gru)
 console.log(gru[1])
-console.log(gru[3])
+console.log(gru[3]) 
