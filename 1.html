@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Condition</title>
+  </head>
+  <body>
+    <input id="numberInput1" type="number" />
+    <input id="numberInput2" type="number" />
+    <br>
+    <br>
+    <button id="myButton">Click Me</button>
+
+    <script>
+      let a = document.getElementById("numberInput1");
+      let b = document.getElementById("numberInput2");
+      let d = document.getElementById("myButton");
+
+      b.addEventListener("click", function () {
+        let x = parseInt(a.value);
+        let y = parseInt(b.value);
+        z=x+y;
+        console.log(z);
+
+      });
+    </script>
+  </body>
+</html>
